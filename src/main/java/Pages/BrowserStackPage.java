@@ -37,6 +37,8 @@ public class BrowserStackPage {
             capabilities.setCapability(pair.getKey().toString(), pair.getValue().toString());
         }
 
+        capabilities.setCapability("buildName",System.getenv("BROWSERSTACK_BUILD_NAME"));
+
         Map<String, String> commonCapabilities = (Map<String, String>) config.get("capabilities");
         it = commonCapabilities.entrySet().iterator();
         while (it.hasNext()) {

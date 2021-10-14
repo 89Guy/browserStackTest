@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3997d809-f125-421c-9781-f305d1df8f62" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/BrowserStackPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/BrowserStackPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/conf/parallel.conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/conf/parallel.conf.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
