@@ -7,10 +7,11 @@ import org.testng.annotations.Test;
 public class TestModule extends BrowserStackPage {
 
     @Test
-    public void filpkartMobileSearchListing(){
-        TestPage testPage=new TestPage(driver);
+    public void filpkartMobileSearchListing() {
+        TestPage testPage = new TestPage(driver);
         testPage.searchMobile("Samsung Galaxy S10");
-        testPage.clickFlipKartAssured();
+        // testPage.clickFlipKartAssured();
+        //testPage.brandSelect();
         testPage.mobileSort();
         try {
             Thread.sleep(3000);

@@ -17,7 +17,8 @@ public class BasePage {
     public WebDriver initDriver() {
         if (System.getProperty("os.name").contains("Windows")) {
           //  System.setProperty("webdriver.chrome.driver", "C:\\Users\\work\\chromedriver.exe");
-            WebDriverManager.chromedriver()./*driverVersion("92.0.4515.107").*/setup();
+          //  WebDriverManager.chromedriver()/*.driverVersion("94.0.4606.81")*/.setup();
+            System.setProperty("webdriver.chrome.driver","C:\\Freelance\\BrowserStack\\chromedriver.exe");
             this.driver = new ChromeDriver();
             this.driver.manage().window().maximize();
             this.driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
