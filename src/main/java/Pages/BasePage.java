@@ -16,7 +16,8 @@ public class BasePage {
 
     public WebDriver initDriver() {
         if (System.getProperty("os.name").contains("Windows")) {
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\work\\chromedriver.exe");
+          //  System.setProperty("webdriver.chrome.driver", "C:\\Users\\work\\chromedriver.exe");
+            WebDriverManager.chromedriver()./*driverVersion("92.0.4515.107").*/setup();
             this.driver = new ChromeDriver();
             this.driver.manage().window().maximize();
             this.driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
@@ -29,7 +30,7 @@ public class BasePage {
             DesiredCapabilities desiredCapabilities=new DesiredCapabilities();
             desiredCapabilities.setCapability("browserName","firefox");
             try {
-                driver=new RemoteWebDriver(new URL("http://13.233.38.43:4444/wd/hub"),desiredCapabilities);
+                driver=new RemoteWebDriver(new URL("http://65.0.91.175:4444/wd/hub"),desiredCapabilities);
                 this.driver.manage().window().maximize();
                 this.driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
                 ThreadContextForScenarios.getInstance();

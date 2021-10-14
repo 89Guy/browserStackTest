@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3997d809-f125-421c-9781-f305d1df8f62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/local.testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/parallel.testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/single.testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/suite.testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modules/InputFormModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modules/TestModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/BrowserStackPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/LocalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/SingleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/TestPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/conf/local.conf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/conf/parallel.conf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/conf/single.conf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/conf/suite.conf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enums/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enums/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StepDefinition/JsonOrCSVReadSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StepDefinition/JsonOrCSVReadSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestRail/TestRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestRail/TestRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/TestRail.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TestRail.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/MainRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/MainRunner.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,25 +41,44 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1jJtQGmc0qeFiilIrZgUYoOJnjI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/FeatureFiles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Pages" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Freelance\BrowserStack\src\main\java\Pages" />
+      <recent name="C:\Freelance\BrowserStack\src\test\resources\conf" />
+      <recent name="C:\Freelance\BrowserStack" />
+      <recent name="C:\Freelance\frameworkCucumber\src\test\java\FeatureFiles" />
+      <recent name="C:\Freelance\frameworkCucumber\src\test\java\json" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Freelance\frameworkCucumber\src\test\data" />
     </key>
@@ -42,27 +89,28 @@
       <recent name="Pages" />
       <recent name="Enums" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Freelance\frameworkCucumber\src\test\java\FeatureFiles" />
-      <recent name="C:\Freelance\frameworkCucumber\src\test\java\json" />
-      <recent name="C:\Freelance\frameworkCucumber\src\test\java\csv" />
-      <recent name="C:\Freelance\frameworkCucumber\src\main\java" />
-      <recent name="C:\Freelance\frameworkCucumber\src\main\java\Context" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C:/Freelance/BrowserStack/config/parallel.testng.xml">
+    <configuration name="C:/Freelance/BrowserStack/config/parallel.testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BrowserStack" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/config/parallel.testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Freelance/BrowserStack/src/test/java/Runner/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BrowserStack" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/Runner/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainRunner" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="frameworkCucumber" />
       <extension name="coverage">
@@ -82,18 +130,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Freelance/BrowserStack/config/parallel.testng.xml" />
+        <item itemvalue="TestNG.C:/Freelance/BrowserStack/src/test/java/Runner/testng.xml" />
         <item itemvalue="TestNG.MainRunner" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SbtLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="C:/Aman" value="PREVIEW" />
-        <entry key="$USER_HOME$" value="PREVIEW" />
-      </map>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -112,20 +155,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/StepDefinition/JsonOrCSVReadSteps.java</url>
-          <line>80</line>
+          <line>76</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -135,7 +177,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/StepDefinition/JsonOrCSVReadSteps.java</url>
-          <line>42</line>
+          <line>38</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

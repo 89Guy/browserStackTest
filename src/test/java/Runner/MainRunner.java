@@ -5,7 +5,6 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 import org.testng.annotations.AfterSuite;
 
-//@RunWith(CucumberT.class)
 @CucumberOptions(
         features = {"src/test/java/FeatureFiles/"},
         glue = {"StepDefinition"},

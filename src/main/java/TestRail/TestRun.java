@@ -14,7 +14,8 @@ import java.util.Random;
 public class TestRun {
 
     public static void main(String[] args) throws IOException, APIException {
-        TestRun TestRun = new TestRun();
+        TestRun testRun = new TestRun();
+        testRun.getTestRun(Constants.TEST_RAIL_PROJECT_NAME.value);
       /*  TestRun.createTestRun(Constants.TEST_RAIL_PROJECT_NAME.value, "SugarCRM_exampleTable");
         System.out.println(TestRun.getTestRun(Constants.TEST_RAIL_PROJECT_NAME.value));*/
     }
@@ -67,12 +68,13 @@ public class TestRun {
             client.setPassword(map.getValue());
         }
         List<JSONObject> c = (List<JSONObject>) client.sendGet("get_runs/" + testProjects.getAllProjects(projectName));
-        System.out.println("testRunName-" + ThreadContextForScenarios.getScenarioContext("name"));
-        for (JSONObject jsonObject : c) {
-            if (jsonObject.get("name").equals(ThreadContextForScenarios.getScenarioContext("name"))) {
-                testRunIds = jsonObject.get("id").toString();
-            }
-        }
+        System.out.println(c.get(0).get("name"));
+    //    System.out.println("testRunName-" + ThreadContextForScenarios.getScenarioContext("name"));
+//        for (JSONObject jsonObject : c) {
+//            if (jsonObject.get("name").equals(ThreadContextForScenarios.getScenarioContext("name"))) {
+//                testRunIds = jsonObject.get("id").toString();
+//            }
+//        }
         return testRunIds;
     }
 

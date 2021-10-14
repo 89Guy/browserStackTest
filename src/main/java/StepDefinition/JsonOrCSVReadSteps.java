@@ -1,16 +1,12 @@
 package StepDefinition;
 
 import Beans.InputForm;
-import Context.ThreadContextForScenarios;
-import Enums.Constants;
 import Pages.InputFormPage;
 import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.List;
 import java.util.Map;
