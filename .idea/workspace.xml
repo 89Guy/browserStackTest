@@ -5,33 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3997d809-f125-421c-9781-f305d1df8f62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/local.testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/parallel.testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/single.testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/suite.testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modules/InputFormModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modules/TestModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/BrowserStackPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/LocalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/SingleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/TestPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/conf/local.conf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/conf/parallel.conf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/conf/single.conf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/conf/suite.conf.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enums/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enums/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StepDefinition/JsonOrCSVReadSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StepDefinition/JsonOrCSVReadSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestRail/TestRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestRail/TestRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/TestRail.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TestRail.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/MainRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/MainRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/conf/parallel.conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/conf/parallel.conf.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
